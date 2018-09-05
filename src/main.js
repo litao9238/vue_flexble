@@ -6,7 +6,9 @@ import router from './router'
 
 import 'lib-flexible'
 
+import { XHeader } from 'vux'
 
+Vue.component('x-header', XHeader)
 
 Vue.config.productionTip = false
 
